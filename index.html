@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./columns.css">
+
+    <title>Columns Template / Examples</title>
+    <style>
+        *{margin:0;padding:0;}
+        body {
+            background-color: #000;
+            height:100vh;
+        }
+        .wrapper {
+            /* height:40px; */
+            background-color: seashell;
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+        .color:nth-child(2n+1){
+            background-color: #aaa;
+        }
+        .color {
+            height: 40px;
+            outline: 1px solid darkorange;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="col1_80p1 color"></div>
+        <div class="col1_20p1 color"></div>
+    </div>
+    <div class="wrapper">
+        <div class="col1_70p1 color"></div>
+        <div class="col1_30p1 color"></div>
+    </div>
+    <div class="wrapper">
+        <div class="col1_80m1 color"></div>
+        <div class="col1_20m1 color"></div>
+    </div>
+    <div class="wrapper">
+        <div class="col1_70m1 color"></div>
+        <div class="col1_30m1 color"></div>
+    </div>
+</body>
+</html>
